@@ -1,0 +1,17 @@
+*.suo
+UpgradeLog.XML
+_ReSharper*
+*.resharper.user
+*.ReSharper.user
+src/RMAWin/bin/Cat.Rma.MeterManagement.zip
+src/RMAWeb.5.0.ReSharper.user
+*.vs10x
+src/DesktopAUSetup/Debug/*
+misc/RtAllocChecker/bin/*
+misc/RtAllocChecker/obj/*
+src/RMAWin/bin/ActivationDetail/
+src/RMAWin/bin/CustomerQuery.pdf
+src/RMAWeb/RMS_IN/
+*.orig
+Bin/
+Debug/
