@@ -18,3 +18,14 @@ src/Netduino.PhotoCell/Netduino.PhotoCell/bin/*
 src/Netduino.ServoTest/Netduino.ServoTest/bin/*
 src/Netduino.PhotoCell/Netduino.PhotoCell/obj/*
 src/Netduino.PhotoCell/Netduino.PhotoCell.suo
+*OnBoardFlash.dat
+src/Netduino.SDCardIO/_ReSharper*
+*.6.1.ReSharper.user
+src/Netduino.ServoTest/_ReSharper*
+src/Netduino.SDCardIO/Netduino.SDCardIO/bin/*
+src/Netduino.SDCardIO/Netduino.SDCardIO/obj/*
+src/Netduino.ServoTest/Netduino.ServoTest/obj/*
+src/Netduino.SDCardIO/Netduino.SDCardIO.sln.DotSettings.user
+src/Netduino.ServoTest/Netduino.ServoTest.suo
+src/Netduino.SDCardIO/Netduino.SDCardIO.suo
+src/Thermometer/Thermometer.sln.DotSettings.user
