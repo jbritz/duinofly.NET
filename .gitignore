@@ -29,3 +29,13 @@ src/Netduino.SDCardIO/Netduino.SDCardIO.sln.DotSettings.user
 src/Netduino.ServoTest/Netduino.ServoTest.suo
 src/Netduino.SDCardIO/Netduino.SDCardIO.suo
 src/Thermometer/Thermometer.sln.DotSettings.user
+src/Netduino.Lib.SixDOF/_ReSharper*
+src/Netduino.Lib.SixDOF/Netduino.App.SixDOF/bin/*
+src/Netduino.Lib.SixDOF/Netduino.App.SixDOF/obj/*
+src/Netduino.Lib.SixDOF/Netduino.Lib.SixDOF/bin/*
+src/Netduino.Lib.SixDOF/Netduino.Lib.SixDOF/obj/*
+src/Netduino.TemperatureSensorTest/_ReSharper.*
+src/Netduino.TemperatureSensorTest/Netduino.TemperatureSensorTest/bin/*
+src/Netduino.TemperatureSensorTest/Netduino.TemperatureSensorTest/obj/*
+*.suo
+*.DotSettings.user
