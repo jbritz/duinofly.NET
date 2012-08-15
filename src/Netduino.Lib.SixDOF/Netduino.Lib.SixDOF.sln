@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netduino.Lib.SixDOF", "Netduino.Lib.SixDOF\Netduino.Lib.SixDOF.csproj", "{0C7A87AA-60FA-4FCB-8C51-1052A65AFE43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Netduino.App.SixDOF", "Netduino.App.SixDOF\Netduino.App.SixDOF.csproj", "{94E3490A-D58C-4E4D-A509-25DD8D590BA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C7A87AA-60FA-4FCB-8C51-1052A65AFE43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7A87AA-60FA-4FCB-8C51-1052A65AFE43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7A87AA-60FA-4FCB-8C51-1052A65AFE43}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0C7A87AA-60FA-4FCB-8C51-1052A65AFE43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7A87AA-60FA-4FCB-8C51-1052A65AFE43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7A87AA-60FA-4FCB-8C51-1052A65AFE43}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{94E3490A-D58C-4E4D-A509-25DD8D590BA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E3490A-D58C-4E4D-A509-25DD8D590BA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E3490A-D58C-4E4D-A509-25DD8D590BA8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{94E3490A-D58C-4E4D-A509-25DD8D590BA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E3490A-D58C-4E4D-A509-25DD8D590BA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E3490A-D58C-4E4D-A509-25DD8D590BA8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
