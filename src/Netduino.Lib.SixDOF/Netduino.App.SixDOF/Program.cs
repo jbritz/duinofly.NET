@@ -19,7 +19,10 @@ namespace Netduino.App.SixDOF
                 var results = new int[3];
                 adxl.ReadAccel(out results);
 
-                Debug.Print(results[0].ToString());
+                Debug.Print("X : " + results[0].ToString());
+                Debug.Print("Y : " + results[1].ToString());
+                Debug.Print("Z : " + results[2].ToString());
+
             }
         }
 
