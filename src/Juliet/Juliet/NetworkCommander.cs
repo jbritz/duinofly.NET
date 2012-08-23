@@ -1,14 +1,17 @@
-using System;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using Microsoft.SPOT;
+using System.Threading;
 
-namespace MFJuliet
+namespace Juliet
 {
     public class NetworkCommander
     {
         private IPEndPoint _EndPoint;
+        private static ManualResetEvent _Block = new ManualResetEvent(false);
         public NetworkCommander(string destinationAddress, int port)
         {
             var ip = IPAddress.Parse(destinationAddress);
@@ -22,11 +25,12 @@ namespace MFJuliet
                 var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
                 socket.Connect(_EndPoint);
                 socket.Send(Encoding.UTF8.GetBytes(command));
+                socket.Disconnect(true);
                 socket.Close();
             }
             catch (Exception ex)
             {
-                Debug.Print(ex.ToString());
+                Console.WriteLine(ex);
                 throw;
             }
         }
