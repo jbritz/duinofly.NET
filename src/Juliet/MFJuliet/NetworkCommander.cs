@@ -9,20 +9,20 @@ namespace MFJuliet
     public class NetworkCommander
     {
         private IPEndPoint _EndPoint;
+        private Socket _Socket;
         public NetworkCommander(string destinationAddress, int port)
         {
             var ip = IPAddress.Parse(destinationAddress);
             _EndPoint = new IPEndPoint(ip, port);
+            _Socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
+            _Socket.Connect(_EndPoint);
         }
 
         public void SendCommand(string command)
         {
             try
             {
-                var socket = new Socket(AddressFamily.InterNetwork, SocketType.Stream, ProtocolType.Tcp);
-                socket.Connect(_EndPoint);
-                socket.Send(Encoding.UTF8.GetBytes(command));
-                socket.Close();
+                _Socket.Send(Encoding.UTF8.GetBytes(command));
             }
             catch (Exception ex)
             {
